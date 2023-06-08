@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/back_livros.jpg" alt="fundo de biblioteca com três livros empilhados " >
+                
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder ver sobre as informações de todos seus livros favoritos</p>
+
+                <form action="login.html" method="post" autocomplete="on">
+
+                    <div class="campo">
+                        <img src="imagens/person_FILL0_wght400_GRAD0_opsz48.png" alt="person" class="icone">
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="seu e-mail" maxlength="30" minlength="7">
+                        <label for="iemail">login</label>
+                    </div>
+
+                    <div class="campo">
+                        <img src="imagens/vpn_key_FILL0_wght400_GRAD0_opsz48.png" alt="icone de chave" class="icone">
+                        <input type="password" name="senha" id="isenha" autocomplete="new-password" minlength="6" maxlength="30" placeholder="sua senha">
+                        <label for="isenha">senha</label>
+                    </div>
+
+                    <input type="submit" value="Entrar"> <br>
+                    <a href="esqueci.html" class="botao">Esqueci a senha </a>
+                    <img src="imagens/mark_email_read_FILL0_wght400_GRAD0_opsz48.png" alt="icone de e-mail" class="icone">
+
+
+                </form>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
