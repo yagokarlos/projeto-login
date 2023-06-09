@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 320px;
     }
 
     section#login > div#imagem {
@@ -26,11 +27,12 @@
 @media screen and (min-width: 992px) {
 
     body{
-        background-image: linear-gradient(to top, rgb(192, 32, 32), rgb(110, 52, 34));
+        background-image: linear-gradient(to center, rgb(192, 32, 32), rgb(110, 52, 34));
     }
 
     section#login{
         width: 950px;
+        height: 410px;
     }
 
     section#login > div#imagem{
@@ -51,5 +53,6 @@
 
     div#formulario > p {
         font-size: 1.3em;
+        margin: 20px 0px;
     }
 }
