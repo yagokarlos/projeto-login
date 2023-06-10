@@ -20,6 +20,11 @@ header{
     color: white;
 }
 
+header > h1 {
+    text-align: center;
+    font-weight: 600;
+}
+
 header > menu {
     background-color: #FA6B0C;
     color: black;
@@ -54,10 +59,115 @@ header > menu > ul a:hover{
 
 main{
     background-color: #FF7C26;
-    max-width: 70%;
+    width: 70%;
     margin: auto;
+    text-align: center;
+}
+
+.livro-codigo{
+    padding-top: 15px;
+}
+
+.livro-codigo > h2 {
+    text-align: left;
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.price{
+    background-color: #00A5AD;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 15px  auto;
+    border-radius: 50%;
+}
+
+h4{
+    padding: 15px;
+    font-size: 1.3rem;
+}
+
+p{
+    color: white;
+}
+
+button{
+    background-color: #00A5AD;
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 15px 0px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #D2F8FA;
+    text-decoration: underline;
+    color: #7e3607;
+    transform: translate(-5px, -5px);
 }
 
 img{
     max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.cat{
+    background-color: #7e3607;
+}
+
+.cat > h1{
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.cat > a{
+    width: 50%;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    font-weight: 500;
+} 
+
+.cat > a:hover{
+    background-color: #d2f8fab0;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: background-color 1.5s, border 1.5s;
+}
+
+.cat h3{
+    color: #00A5AD;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > h5 > a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer > h5 > a:hover {
+    text-decoration: underline;
+    color: rgb(23, 237, 205);
+
 }
