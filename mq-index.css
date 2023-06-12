@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+    header > menu > ul {
+        display: inline;
+        display: flex;
+        list-style-type: none;
+        border-radius: 20px;
+    }
+
+    header > menu > ul > li > a{
+        margin-left: 10px;
+    }
+
+    #icone{
+        display: none;
+    }
+}
